@@ -8,132 +8,79 @@
 <body>
     <div class="container">
         <div>
-            <h2 style="text-align: center">Masukkan keluhan kamu</h2>
-            <div class="form-container">
-                <div class="form-col">
-                    <select onchange="handleGejalaChange(this)" name="gejala1" class="gejala-input">
-                        <option selected disabled value="default">Please select</option>
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
-                        <option value="a">A</option>
-                        <option value="b">B</option>
-                        <option value="c">C</option>
-                        <option value="d">D</option>
-                        <option value="e">E</option>
-                        <option value="f">F</option>
-                    </select>
-                    <select onchange="handleGejalaChange(this)" name="gejala2" class="gejala-input">
-                        <option selected disabled value="default">Please select</option>
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
-                        <option value="a">A</option>
-                        <option value="b">B</option>
-                        <option value="c">C</option>
-                        <option value="d">D</option>
-                        <option value="e">E</option>
-                        <option value="f">F</option>
-                    </select>
-                    <select onchange="handleGejalaChange(this)" name="gejala3" class="gejala-input">
-                        <option selected disabled value="default">Please select</option>
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
-                        <option value="a">A</option>
-                        <option value="b">B</option>
-                        <option value="c">C</option>
-                        <option value="d">D</option>
-                        <option value="e">E</option>
-                        <option value="f">F</option>
-                    </select>
-                </div>
-                <div class="form-col">
-                    <select onchange="handleGejalaChange(this)" name="gejala4" class="gejala-input">
-                        <option selected disabled value="default">Please select</option>
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
-                        <option value="a">A</option>
-                        <option value="b">B</option>
-                        <option value="c">C</option>
-                        <option value="d">D</option>
-                        <option value="e">E</option>
-                        <option value="f">F</option>
-                    </select>
-                    <select onchange="handleGejalaChange(this)" name="gejala5" class="gejala-input">
-                        <option selected disabled value="default">Please select</option>
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
-                        <option value="a">A</option>
-                        <option value="b">B</option>
-                        <option value="c">C</option>
-                        <option value="d">D</option>
-                        <option value="e">E</option>
-                        <option value="f">F</option>
-                    </select>
-                    <select onchange="handleGejalaChange(this)" name="gejala6" class="gejala-input">
-                        <option selected disabled value="default">Please select</option>
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
-                        <option value="a">A</option>
-                        <option value="b">B</option>
-                        <option value="c">C</option>
-                        <option value="d">D</option>
-                        <option value="e">E</option>
-                        <option value="f">F</option>
-                    </select>
-                </div>
-            </div>
-            <div style="text-align: center">
-                <button type="button"><span></span>DIAGNOSA</button>
-            </div>
-            <div>
-                <div>
-                    <h2>Diagnosa kamu saat ini adalah:</h2>
-                    <h1>NAMA PENYAKIT</h1>
-                </div>
-                <div>
-                    <p>DESKRIPSI PENYAKIT LOREM IPSUM DOLOR SIT AMET</p>
-                </div>
-                <h2>Obat Rekomendasi:</h2>
-                <div class="container card-container">
-                    <div class="card">
-                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
-                        <div class="container">
-                            <h4><b>John Doe</b></h4>
-                            <p>Architect & Engineer</p>
-                        </div>
+            <div id="penyakit-form">
+                <h2 style="text-align: center">Masukkan keluhan kamu</h2>
+                <div class="form-container">
+                    <div class="form-col">
+                        <select onchange="handleGejalaChange(this)" name="gejala1" class="gejala-input">
+                            <option selected disabled value="default">Please select</option>
+                        </select>
+                        <select onchange="handleGejalaChange(this)" name="gejala2" class="gejala-input">
+                            <option selected disabled value="default">Please select</option>
+                        </select>
+                        <select onchange="handleGejalaChange(this)" name="gejala3" class="gejala-input">
+                            <option selected disabled value="default">Please select</option>
+                        </select>
                     </div>
-                    <div class="card">
-                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
-                        <div class="container">
-                            <h4><b>John Doe</b></h4>
-                            <p>Architect & Engineer</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
-                        <div class="container">
-                            <h4><b>John Doe</b></h4>
-                            <p>Architect & Engineer</p>
-                        </div>
+                    <div class="form-col">
+                        <select onchange="handleGejalaChange(this)" name="gejala4" class="gejala-input">
+                            <option selected disabled value="default">Please select</option>
+                        </select>
+                        <select onchange="handleGejalaChange(this)" name="gejala5" class="gejala-input">
+                            <option selected disabled value="default">Please select</option>
+                        </select>
+                        <select onchange="handleGejalaChange(this)" name="gejala6" class="gejala-input">
+                            <option selected disabled value="default">Please select</option>
+                        </select>
                     </div>
                 </div>
                 <div style="text-align: center">
-                    <button type="button"><span></span>DIAGNOSA ULANG</button>
+                    <button type="button" onclick="handleSubmit()"><span></span>DIAGNOSA</button>
+                </div>
+            </div>
+            <div class="penyakit-card" style="display: none">
+                <div id="penyakit-title">
+                    <h1>Hasil diagnosa</h1>
+                    <p id="penyakit-name">{nama penyakit}</p>
+                </div>
+                <div class="penyakit-description-container">
+                    <p id="penyakit-description">{deskripsi}</p>
+                </div>
+                <div id="obat-container">
+                <h2>Obat Rekomendasi:</h2>
+                <div class="container card-container">
+                    <div id="rekomendasi-obat-1" class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h3 class="obat-title">{obat}</h3>
+                            <a href="#" class="button"><span></span>Klik untuk membeli</a>
+                        </div>
+                    </div>
+
+                    <div id="rekomendasi-obat-2" class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h3 class="obat-title">{obat}</h3>
+                            <a href="#" class="button"><span></span>Klik untuk membeli</a>
+                        </div>
+                    </div>
+
+                    <div id="rekomendasi-obat-3" class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h3 class="obat-title">{obat}</h3>
+                            <a href="#" class="button"><span></span>Klik untuk membeli</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div style="text-align: center">
+                    <button type="button" onclick="window.location.reload()"><span></span>DIAGNOSA ULANG</button>
                 </div>
             </div>
         </div>
     </div>
+
     <script src="script/diagnosa.js"></script>
 </body>
 </html>
