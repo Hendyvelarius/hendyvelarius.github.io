@@ -16,7 +16,6 @@
     width: 70%;
     position: absolute;
     top:40%;
-    transform: translateY(-50%) translateX(-30%);
     text-align: center;
     color: #fff;
 }
