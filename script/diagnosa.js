@@ -8,15 +8,18 @@ const daftarPenyakit = {
     obat: [
       {
         nama: "DEMACOLIN",
-        link: "https://www.tokopedia.com/kimiafarmaapotekjatengos/demacolin-strip-10-tablet-obat-flu-kimia-farma?extParam=ivf%3Dfalse%26whid%3D16727874&src=topads"
+        link: "https://www.tokopedia.com/kimiafarmaapotekjatengos/demacolin-strip-10-tablet-obat-flu-kimia-farma?extParam=ivf%3Dfalse%26whid%3D16727874&src=topads",
+        image: "decamolin.jpg"
       },
       {
         nama: "ALPARA",
-        link: "https://www.tokopedia.com/apotekanugrahmlawai/alpara-10-kaplet?extParam=ivf%3Dfalse&src=topads"
+        link: "https://www.tokopedia.com/apotekanugrahmlawai/alpara-10-kaplet?extParam=ivf%3Dfalse&src=topads",
+        image: "alpara.jpg"
       },
       {
         nama: "FLUTAMOL",
-        link: "https://www.tokopedia.com/halomedikatebet/flutamol-10-kaplet?extParam=ivf%3Dfalse&src=topads"
+        link: "https://www.tokopedia.com/halomedikatebet/flutamol-10-kaplet?extParam=ivf%3Dfalse&src=topads",
+        image: "flutamol.jpg"
       }
     ]
   },
@@ -26,15 +29,18 @@ const daftarPenyakit = {
     obat: [
       {
         nama: "PROMAG SUSPENSI",
-        link: "https://www.tokopedia.com/b3st-shop/promag-suspensi-per-box-isi-6-sachet-7ml-botol-60ml-obat-sakit-maag-per-box-6-sach-53058?utm_source=google&utm_medium=organic&utm_campaign=pdp"
+        link: "https://www.tokopedia.com/b3st-shop/promag-suspensi-per-box-isi-6-sachet-7ml-botol-60ml-obat-sakit-maag-per-box-6-sach-53058?utm_source=google&utm_medium=organic&utm_campaign=pdp",
+        image: "promagSuspensi.jpg"
       },
       {
         nama: "MYLANTA CAIR",
-        link: "https://www.tokopedia.com/mandjur/mylanta-cair-isi-150-ml-obat-pereda-sakit-maag-nyeri-ulu-hati?extParam=ivf%3Dfalse%26keyword%3Dmylanta+cair%26search_id%3D20241205095225D4E73DC5D774DE1DEP1A%26src%3Dsearch"
+        link: "https://www.tokopedia.com/mandjur/mylanta-cair-isi-150-ml-obat-pereda-sakit-maag-nyeri-ulu-hati?extParam=ivf%3Dfalse%26keyword%3Dmylanta+cair%26search_id%3D20241205095225D4E73DC5D774DE1DEP1A%26src%3Dsearch",
+        image: "mylanta.jpg"
       },
       {
         nama: "LANPRACID KAPSUL",
-        link: "https://www.tokopedia.com/century-online/lanpracid-30-mg-1-blister-isi-10-kapsul-lansoprazole-sakit-maag?extParam=ivf%3Dfalse%26keyword%3Dlanpracid+kapsul%26search_id%3D20241205095339567EAB23A4BBD225103N%26shop_tier%3D2%26src%3Dsearch%26whid%3D17729598"
+        link: "https://www.tokopedia.com/century-online/lanpracid-30-mg-1-blister-isi-10-kapsul-lansoprazole-sakit-maag?extParam=ivf%3Dfalse%26keyword%3Dlanpracid+kapsul%26search_id%3D20241205095339567EAB23A4BBD225103N%26shop_tier%3D2%26src%3Dsearch%26whid%3D17729598",
+        image: "lanpracid.jpg"
       }
     ]
   },
@@ -44,13 +50,19 @@ const daftarPenyakit = {
     obat: [
       {
         nama: "PARACETAMOL",
-        link: "https://www.tokopedia.com/mandjur/paracetamol-500-mg-strip-10-kaplet-pereda-nyeri-dan-demam?extParam=ivf%3Dfalse%26keyword%3Dparacetamol%26search_id%3D202412050924410C5612011D6B7B186BOL%26src%3Dsearch"
+        link: "https://www.tokopedia.com/mandjur/paracetamol-500-mg-strip-10-kaplet-pereda-nyeri-dan-demam?extParam=ivf%3Dfalse%26keyword%3Dparacetamol%26search_id%3D202412050924410C5612011D6B7B186BOL%26src%3Dsearch",
+        image: "paracetamol.jpg"
       },
       {
         nama: "IBUPROFEN",
-        link: "https://www.tokopedia.com/mandjur/ibuprofen-200-mg-strip-10-tablet-pereda-nyeri-ringan-dan-sedang?extParam=ivf%3Dfalse&src=topads"
+        link: "https://www.tokopedia.com/mandjur/ibuprofen-200-mg-strip-10-tablet-pereda-nyeri-ringan-dan-sedang?extParam=ivf%3Dfalse&src=topads",
+        image: "ibuprofen.png"
       },
-      {nama: "VERMINT", link: "https://www.tokopedia.com/obatobatori/vermin-isi-12?extParam=ivf%3Dfalse&src=topads"}
+      {
+        nama: "VERMINT",
+        link: "https://www.tokopedia.com/obatobatori/vermin-isi-12?extParam=ivf%3Dfalse&src=topads",
+        image: "vermint.jpg"
+      }
     ]
   },
   Diare: {
@@ -59,15 +71,18 @@ const daftarPenyakit = {
     obat: [
       {
         nama: "NEW DIATABS",
-        link: "https://www.tokopedia.com/halomedikabsd/new-diatabs-4-tablet?extParam=ivf%3Dfalse&src=topads"
+        link: "https://www.tokopedia.com/halomedikabsd/new-diatabs-4-tablet?extParam=ivf%3Dfalse&src=topads",
+        image: "diatabs.jpg"
       },
       {
         nama: "ENTROSTOP",
-        link: "https://www.tokopedia.com/aptasysyifatbtgoa/entrostop-strip-12-tablet?extParam=ivf%3Dfalse&src=topads"
+        link: "https://www.tokopedia.com/aptasysyifatbtgoa/entrostop-strip-12-tablet?extParam=ivf%3Dfalse&src=topads",
+        image: "entrostop.jpg"
       },
       {
         nama: "ORALIT",
-        link: "https://www.tokopedia.com/halomedikatebet/oralit-200-4-1-g-1-sachet-obat-diare-halodoc?extParam=ivf%3Dfalse%26keyword%3Doralit%26search_id%3D2024120509280977BAE7EB7CD5AC3C23JK%26src%3Dsearch"
+        link: "https://www.tokopedia.com/halomedikatebet/oralit-200-4-1-g-1-sachet-obat-diare-halodoc?extParam=ivf%3Dfalse%26keyword%3Doralit%26search_id%3D2024120509280977BAE7EB7CD5AC3C23JK%26src%3Dsearch",
+        image: "oralit.jpg"
       }
     ]
   },
@@ -77,15 +92,18 @@ const daftarPenyakit = {
     obat: [
       {
         nama: "SALEP PENICILIN ANTISEPTIK",
-        link: "https://www.tokopedia.com/jlaris/salep-penicilin-antiseptik-salap-untuk-luka-infeksi-diabet?extParam=ivf%3Dfalse%26keyword%3Dpenicilin%26search_id%3D20241205084405D4E73DC5D774DE100S33%26src%3Dsearch&refined=true"
+        link: "https://www.tokopedia.com/jlaris/salep-penicilin-antiseptik-salap-untuk-luka-infeksi-diabet?extParam=ivf%3Dfalse%26keyword%3Dpenicilin%26search_id%3D20241205084405D4E73DC5D774DE100S33%26src%3Dsearch&refined=true",
+        image: "salepPenicillin.jpg"
       },
       {
         nama: "CIPROFLOXACIN HEXPHARM",
-        link: "https://www.tokopedia.com/apoteksumberrejekig/ciprofloxacin-hexpharm-500-mg-strip-10-tablet?extParam=ivf%3Dfalse%26keyword%3Dciprofloxacin+500+mg%26search_id%3D2024120508471053CE1724E268AC299KL6%26shop_tier%3D2%26src%3Dsearch"
+        link: "https://www.tokopedia.com/apoteksumberrejekig/ciprofloxacin-hexpharm-500-mg-strip-10-tablet?extParam=ivf%3Dfalse%26keyword%3Dciprofloxacin+500+mg%26search_id%3D2024120508471053CE1724E268AC299KL6%26shop_tier%3D2%26src%3Dsearch",
+        image: "ciprofloxacin.jpg"
       },
       {
         nama: "DOXYCYCLINE 100 MG",
-        link: "https://www.tokopedia.com/apotekrafifarmasukarame/doxycycline-100-mg-1-strip-10-kapsul?extParam=ivf%3Dfalse&src=topads"
+        link: "https://www.tokopedia.com/apotekrafifarmasukarame/doxycycline-100-mg-1-strip-10-kapsul?extParam=ivf%3Dfalse&src=topads",
+        image: "doxycycline.jpg"
       }
     ]
   }
@@ -177,8 +195,7 @@ function handleSubmit() {
   }
 
   daftarPenyakit[penyakit].obat.forEach(function (obat, index) {
-    // document.querySelector(`rekomendasi-obat-${index + 1} img`).src = obat.image;
-
+    document.querySelector(`#rekomendasi-obat-${index + 1} img`).src = `./obatScreenshot/${obat.image}`;
     document.querySelector(`#rekomendasi-obat-${index + 1} .obat-title`).innerHTML = obat.nama;
     document.querySelector(`#rekomendasi-obat-${index + 1} a`).href = obat.link;
   })
