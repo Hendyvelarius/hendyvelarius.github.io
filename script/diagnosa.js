@@ -50,7 +50,7 @@ const daftarPenyakit = {
         nama: "IBUPROFEN",
         link: "https://www.tokopedia.com/mandjur/ibuprofen-200-mg-strip-10-tablet-pereda-nyeri-ringan-dan-sedang?extParam=ivf%3Dfalse&src=topads"
       },
-      {nama: "VERMIN", link: "https://www.tokopedia.com/obatobatori/vermin-isi-12?extParam=ivf%3Dfalse&src=topads"}
+      {nama: "VERMINT", link: "https://www.tokopedia.com/obatobatori/vermin-isi-12?extParam=ivf%3Dfalse&src=topads"}
     ]
   },
   Diare: {
@@ -137,11 +137,6 @@ function handleSubmit() {
 
   const namaPenyakit = document.querySelector("#penyakit-name");
   const deskripsiPenyakit = document.querySelector("#penyakit-description");
-  const rekomendasi1 = "#rekomendasi-obat-1";
-  const rekomendasi2 = "#rekomendasi-obat-2";
-  const rekomendasi3 = "#rekomendasi-obat-3";
-
-  const obatTitle = ".obat-title"
 
   // main function
   const counterGejala = {};
@@ -160,7 +155,7 @@ function handleSubmit() {
 
   const sortedGejala = Object.keys(counterGejala).map(function (gejala) {
     return [gejala, counterGejala[gejala]]
-  }).sort(function(a, b) {
+  }).sort(function (a, b) {
     return a[1] - b[1];
   });
 
@@ -170,7 +165,7 @@ function handleSubmit() {
   let deskripsi = daftarPenyakit[penyakit].definisi;
   if (sortedGejala[0][1] === sortedGejala[1][1]) {
     penyakit = "Ambigu";
-    deskripsi = "kemungkinan sedang kamu alami. Untuk itu, kami merekomendasikan untuk segera mengunjungi dokter dan di-diagnosa secara langsung.";
+    deskripsi = "Kemungkinan sedang kamu alami. Untuk itu, kami merekomendasikan untuk segera mengunjungi dokter dan di-diagnosa secara langsung.";
     isAmbigu = true;
   }
 
